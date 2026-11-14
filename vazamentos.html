@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Checklist dos 5 vazamentos de receita · Dedikar IA</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=DM+Sans:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0b0b10;color:#f1efe9;font-family:'DM Sans',system-ui,sans-serif;line-height:1.5;background-image:radial-gradient(rgba(255,255,255,.06) 1.2px,transparent 1.2px);background-size:22px 22px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+main{max-width:760px;margin:0 auto;padding:32px 16px 48px}
+.top{display:flex;align-items:center;gap:12px}.tile{width:44px;height:44px;border-radius:11px;background:#fff;overflow:hidden;flex:none}.tile img{width:100%;height:100%;object-fit:contain}
+.br{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;line-height:1}.br span{color:#38d9ec}.br small{display:block;font-family:'DM Sans';font-size:10px;letter-spacing:2px;color:#9a9ca8;text-transform:uppercase;margin-top:4px}
+.k{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:2.5px;color:#38d9ec;text-transform:uppercase;margin-top:36px}
+h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(34px,8vw,48px);line-height:1.04;margin-top:10px}h1 em{color:#38d9ec}
+.lead{color:#c9cad2;margin-top:14px}.lead b{color:#fff}
+.it{display:flex;gap:14px;background:rgba(21,23,34,.92);border:1px solid rgba(56,217,236,.28);border-radius:14px;padding:16px;margin-top:14px}
+.n{flex:none;width:36px;height:36px;border-radius:9px;border:1px solid rgba(56,217,236,.55);background:rgba(56,217,236,.1);color:#38d9ec;font-family:'JetBrains Mono',monospace;display:flex;align-items:center;justify-content:center}
+.q{font-weight:600;font-size:17px}.d{font-size:14.5px;color:#a9abb6;margin-top:4px}
+.f{font-family:'JetBrains Mono',monospace;font-size:12px;color:#38d9ec;margin-top:10px}.f input{width:100%;margin-top:4px;background:transparent;border:0;border-bottom:1px dashed rgba(255,255,255,.3);color:#fff;font:15px 'DM Sans',sans-serif;padding:4px 0;outline:none}
+label.ok{display:flex;gap:8px;align-items:center;font-size:13px;color:#9a9ca8;margin-top:10px}label.ok input{accent-color:#38d9ec;width:16px;height:16px}
+.why{margin-top:22px;font-size:14px;color:#a9abb6;border-left:2px solid #38d9ec;padding-left:12px}.why b{color:#fff}
+.bt{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.bt a,.bt button{display:inline-flex;align-items:center;padding:13px 20px;border-radius:999px;font:600 15px 'DM Sans',sans-serif;text-decoration:none;cursor:pointer;border:0}
+.cta{background:#38d9ec;color:#061015}.sec{background:transparent;color:#f1efe9;border:1px solid rgba(56,217,236,.45)!important}
+footer{margin-top:40px;padding-top:14px;border-top:1px solid rgba(255,255,255,.08);display:flex;gap:10px;align-items:center;font-size:11.5px;color:#8e909c}footer img{width:22px;height:22px;background:#fff;border-radius:5px}footer a{color:#38d9ec}
+@media print{.bt{display:none}body{background:#0b0b10}}
+
+table{width:100%;border-collapse:collapse;margin-top:16px;font-size:14px}
+th{font:500 11px 'JetBrains Mono',monospace;letter-spacing:1px;color:#38d9ec;text-transform:uppercase;text-align:left;padding:8px 6px;border-bottom:1px solid rgba(56,217,236,.35)}
+td{padding:6px;border-bottom:1px solid rgba(255,255,255,.06)}
+td input{width:100%;background:rgba(21,23,34,.92);border:1px solid rgba(255,255,255,.12);border-radius:8px;color:#fff;font:15px 'DM Sans',sans-serif;padding:8px;outline:none}
+td input[type=number]{max-width:84px}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-left:6px;vertical-align:middle;background:#444}
+.g{background:#3ddc84}.y{background:#f5c542}.r{background:#ff5d5d}
+.tw{overflow-x:auto}
+.add{margin-top:10px;background:transparent;color:#38d9ec;border:1px dashed rgba(56,217,236,.5);border-radius:10px;padding:8px 14px;font:600 14px 'DM Sans';cursor:pointer}
+.leg{font-size:13px;color:#a9abb6;margin-top:10px}
+
+.calc{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}.calc label{flex:1 1 150px;font:12px 'JetBrains Mono',monospace;color:#38d9ec}
+.calc input{width:100%;margin-top:4px;background:rgba(11,11,16,.9);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:#fff;font:15px 'DM Sans';padding:8px;outline:none}
+.v{font:600 16px 'DM Sans';color:#fff;margin-top:10px}.v span{color:#38d9ec}
+.tot{margin-top:22px;background:linear-gradient(120deg,rgba(56,217,236,.16),rgba(122,162,255,.12));border:1px solid rgba(56,217,236,.45);border-radius:16px;padding:20px}
+.tot .big{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(40px,10vw,58px);line-height:1}.tot .sub{color:#c9cad2;font-size:14px;margin-top:6px}
+textarea{width:100%;margin-top:6px;background:rgba(11,11,16,.9);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:#fff;font:15px 'DM Sans';padding:8px;min-height:64px;outline:none;resize:vertical}
+</style></head><body><main>
+<div class="top"><span class="tile"><img src="logo.png" alt="Dedikar IA"></span><div class="br">Dedikar <span>IA</span><small>Sistemas inteligentes para empresas crescerem com eficiência</small></div></div>
+<div class="k">Checklist · Os 5 vazamentos de receita</div>
+<h1>O dinheiro que a sua empresa perde <em>sem perceber.</em></h1>
+<p class="lead">Preencha com números aproximados do seu mês. A página soma os <b>5 vazamentos mais comuns</b> e mostra quanto escapa por mês e por ano. É uma estimativa para enxergar onde agir primeiro. Os dados ficam só no seu navegador.</p>
+<div class="it"><div class="n">01</div><div style="flex:1"><div class="q">Orçamento enviado e nunca cobrado de volta</div><div class="d">Quantos orçamentos ficam sem retorno por mês, o valor médio e quantos você fecharia se alguém retomasse.</div><div class="calc"><label>Orçamentos sem retorno/mês<input type="number" min="0" step="any" data-k="o1" placeholder="ex.: 20"></label><label>Valor médio (R$)<input type="number" min="0" step="any" data-k="o2" placeholder="ex.: 1500"></label><label>% que fecharia com retorno<input type="number" min="0" step="any" data-k="o3" placeholder="ex.: 15"></label></div><div class="v">Vazamento estimado: <span data-r="1">R$ 0</span> por mês</div></div></div><div class="it"><div class="n">02</div><div style="flex:1"><div class="q">Conta a receber que atrasou em silêncio</div><div class="d">Quanto está em atraso hoje e quanto disso costuma virar perda ou demorar meses para entrar.</div><div class="calc"><label>Total em atraso hoje (R$)<input type="number" min="0" step="any" data-k="a1" placeholder="ex.: 8000"></label><label>% que vira perda<input type="number" min="0" step="any" data-k="a2" placeholder="ex.: 10"></label></div><div class="v">Vazamento estimado: <span data-r="2">R$ 0</span> por mês</div></div></div><div class="it"><div class="n">03</div><div style="flex:1"><div class="q">Cliente que comprou e não voltou</div><div class="d">Quantos clientes compraram nos últimos 12 meses e não voltaram, e quanto um retorno vale.</div><div class="calc"><label>Clientes que não voltaram (12 meses)<input type="number" min="0" step="any" data-k="c1" placeholder="ex.: 60"></label><label>Valor de uma recompra (R$)<input type="number" min="0" step="any" data-k="c2" placeholder="ex.: 400"></label><label>% que voltaria se chamado<input type="number" min="0" step="any" data-k="c3" placeholder="ex.: 20"></label></div><div class="v">Vazamento estimado: <span data-r="3">R$ 0</span> por mês</div></div></div><div class="it"><div class="n">04</div><div style="flex:1"><div class="q">Desconto dado sem regra</div><div class="d">O faturamento do mês e o desconto médio que sai sem critério.</div><div class="calc"><label>Faturamento do mês (R$)<input type="number" min="0" step="any" data-k="d1" placeholder="ex.: 80000"></label><label>% de desconto sem regra<input type="number" min="0" step="any" data-k="d2" placeholder="ex.: 3"></label></div><div class="v">Vazamento estimado: <span data-r="4">R$ 0</span> por mês</div></div></div><div class="it"><div class="n">05</div><div style="flex:1"><div class="q">Retrabalho por informação perdida</div><div class="d">Horas refazendo pedido, corrigindo entrega ou procurando informação, e o custo de uma hora da equipe.</div><div class="calc"><label>Horas de retrabalho/mês<input type="number" min="0" step="any" data-k="r1" placeholder="ex.: 25"></label><label>Custo de 1 hora (R$)<input type="number" min="0" step="any" data-k="r2" placeholder="ex.: 30"></label></div><div class="v">Vazamento estimado: <span data-r="5">R$ 0</span> por mês</div></div></div>
+<div class="tot"><div class="k" style="margin-top:0">Total estimado</div><div class="big" id="tm">R$ 0</div><div class="sub">por mês · <b id="ta" style="color:#fff">R$ 0</b> por ano. O maior vazamento é o seu primeiro passo: <b id="mx" style="color:#fff">—</b>.</div></div>
+<p class="why"><b>Como estancar:</b> medir em reais, atacar o maior vazamento primeiro e acompanhar num painel o dinheiro voltando. É isso que a Dedikar implanta, por etapa, a partir de um diagnóstico gratuito.</p>
+<div class="bt"><a class="cta" href="https://dedikaria.com.br/?utm_source=instagram&amp;utm_medium=dm&amp;utm_campaign=receita">Agendar o diagnóstico gratuito</a><button class="sec" onclick="print()">Salvar em PDF / imprimir</button><a class="sec" href="https://wa.me/5581960001152?text=Oi%20Otto%2C%20fiz%20o%20checklist%20dos%205%20vazamentos">Falar com o Otto no WhatsApp</a></div>
+<footer><img src="logo.png" alt=""><div>Desenvolvido por Dedikar Negócios · CNPJ 53.956.977/0001-43 · Todos os direitos reservados.<br>contato@dedikaria.com.br · (81) 96000-1152 · <a href="https://dedikaria.com.br">dedikaria.com.br</a></div></footer>
+</main>
+<script>
+const NOMES=['Orçamento sem retorno','Atraso em silêncio','Cliente que não voltou','Desconto sem regra','Retrabalho'];
+const brl=v=>v.toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});
+const ins=[...document.querySelectorAll('input[data-k]')];
+function g(k){const e=document.querySelector('[data-k="'+k+'"]');return parseFloat(e.value)||0}
+function calc(){const r=[];
+ r[1]=g("o1")*g("o2")*g("o3")/100;
+ r[2]=g("a1")*g("a2")/100;
+ r[3]=g("c1")*g("c2")*g("c3")/100/12;
+ r[4]=g("d1")*g("d2")/100;
+ r[5]=g("r1")*g("r2");
+ let t=0,mi=-1,mv=0;for(let i=1;i<=5;i++){document.querySelector('[data-r="'+i+'"]').textContent=brl(r[i]);t+=r[i];if(r[i]>mv){mv=r[i];mi=i}}
+ document.getElementById('tm').textContent=brl(t);document.getElementById('ta').textContent=brl(t*12);document.getElementById('mx').textContent=mi>0?NOMES[mi-1]:'—';
+ try{localStorage.setItem('vazamentos',JSON.stringify(ins.map(i=>i.value)))}catch(e){}}
+try{const d=JSON.parse(localStorage.getItem('vazamentos')||'null');if(d)ins.forEach((i,k)=>i.value=d[k]||'')}catch(e){}
+ins.forEach(i=>i.addEventListener('input',calc));calc();
+</script></body></html>
